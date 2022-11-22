@@ -1,0 +1,8 @@
+P = int(input('Enter principle amount:'))
+T = int(input('Enter time:'))
+R = int(input('Enter rate of intrest:'))
+SI = (P*T*R)/100
+N = T*12
+EMI = (P + SI)/N
+print("EMI is equal to :")
+print(EMI)
